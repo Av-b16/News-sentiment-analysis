@@ -1,11 +1,22 @@
-<<<<<<< HEAD
-#  News Sentiment Analysis & TTS Application
+---
+title: News Sentiment Analysis
+emoji: 📊
+colorFrom: purple
+colorTo: green
+sdk: streamlit
+sdk_version: "1.43.2"
+app_file: app.py
+pinned: false
+short_description: News sentiment analysis with Hindi audio summary.
+---
+
+# News Sentiment Analysis & TTS Application
 
 This application analyzes news articles for sentiment (positive, negative, or neutral) and generates a Hindi Text-to-Speech (TTS) audio report.
 
 ---
 
-##  Features
+## Features
 - Fetch news articles using `NewsAPI`.
 - Perform sentiment analysis using Hugging Face's `transformers`.
 - Generate comparative sentiment analysis reports.
@@ -14,11 +25,13 @@ This application analyzes news articles for sentiment (positive, negative, or ne
 
 ---
 
-##  Setup Instructions
+## Setup Instructions
 1. **Clone the repository:**
+
 
 git clone https://github.com/your-username/news-sentiment-app.git
 cd news-sentiment-app
+
 
 2. Set up a virtual environment (optional but recommended):
 
@@ -42,17 +55,5 @@ streamlit run app.py
 The application will be available at:
 http://localhost:8501
 =======
----
-title: News Sentiment Analysis
-emoji: 📊
-colorFrom: purple
-colorTo: green
-sdk: streamlit
-sdk_version: 1.43.2
-app_file: app.py
-pinned: false
-short_description: News sentiment analysis with Hindi audio summary.
----
 
-Check out the configuration reference at https://huggingface.co/docs/hub/spaces-config-reference
->>>>>>> 54a90600a35b1a47a70ea1c17dc60ee4d3018f34
+
